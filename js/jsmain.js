@@ -117,7 +117,7 @@ const HOVER = document.querySelectorAll('.cursor-hover');
 const { pageX: posX, pageY: posY } = e;
 
 const runMouseOver = () => {
-// $cursorBG.style.transform = 'scale(1.5)';
+$cursorBG.style.transform = 'scale(1.5)';
  $cursorBG.style.background = 'none';
  };
 HOVER.forEach(hover => hover.addEventListener('mouseenter', runMouseOver));
